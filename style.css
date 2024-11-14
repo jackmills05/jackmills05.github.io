@@ -10,10 +10,21 @@ body {
     background-color: #3333;
     outline: 10px black ;
 }
-span{
-    cursor:pointer;
+.topBar .search{
+  float:right;
+   outline:none;
+   background-color: transparent;
+   border:none;
+   cursor: pointer;
 }
+.topBar .navigation{
+  float:left;
+   outline:none;
+   background-color: transparent;
+   border:none;
+   cursor: pointer;
 
+}
 #taskbar {
     height: 100%;
     width: 10%;
@@ -25,10 +36,8 @@ span{
     padding-top: 16px;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  ul[value="1"] {
-    padding: 5%;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    background-color: rgb(64,64,64);
-    margin: 5% 0;
-    }
+}
+#taskbar a, a:link, a:visited{
+  color:inherit;
+  text-decoration:none;
+}
