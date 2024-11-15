@@ -1,42 +1,20 @@
-[{
-    "Keywords": "E107",
-    "Price": "2020-12-10",
-    "ProductName": "Shoe",
-    "Image": "10"
-}, {
-    "Keywords": "E108",
-    "Price": "2020-12-11",
-    "ProductName": "Shoe1",
-    "Image": "10"
-}, {
-    "Keywords": "E109",
-    "Price": "2020-12-12",
-    "ProductName": "Shoe2",
-    "Image": "10"
-}, {
-    "Keywords": "E110",
-    "Price": "2020-12-13",
-    "ProductName": "Shoe3",
-    "Image": "25"
-}, {
-    "Keywords": "E111",
-    "Price": "2020-12-14",
-    "ProductName": "Shoe4",
-    "Image": "20"
-}, {
-    "Keywords": "E112",
-    "Price": "2020-12-15",
-    "ProductName": "Shoe5",
-    "Image": "25"
-}, {
-    "Keywords": "E113",
-    "Price": "2020-12-16",
-    "ProductName": "Shoe6",
-    "Image": "20"
-
-}, {
-    "Keywords": "E114",
-    "Price": "2020-12-17",
-    "ProductName": "Shoe7",
-    "Image": "20"
-}]
+[
+    {
+      "productName": "Shoe1",
+      "price": 29,
+      "productImage": "",
+      "keyWords": ["Radiation resistance", 
+      "Turning tiny", 
+      "Radiation blast"]
+    },
+    {
+      "productName": "Shoe2",
+      "price": 39,
+      "productImage": "",
+      "keyWords": [
+        "Million tonne punch",
+        "Damprice resistance",
+        "Superhuman reflexes"
+      ]
+    }
+  ]
