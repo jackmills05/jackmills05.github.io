@@ -23,7 +23,6 @@ body {
    background-color: transparent;
    border:none;
    cursor: pointer;
-
 }
 #taskbar {
     height: 100%;
@@ -34,7 +33,6 @@ body {
     left: 0;
     top: 0;
     padding-top: 16px;
-
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #taskbar a, a:link, a:visited{
@@ -53,7 +51,14 @@ body {
   background-repeat: no-repeat;
   background-position: 10px 10px
 }
-
+.productDisplay img{
+  width:300px;
+}
+.productDisplay{
+  background-color:beige;
+  float:left;
+  padding: 12px;
+}
 
 
 
