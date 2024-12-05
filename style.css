@@ -178,3 +178,41 @@ body {
   transition: none;
   border: 2px solid black;
 }
+.productPage{
+
+}
+.productPage .productBasket{
+  color:black;
+  background: #3bc47f;
+  width:10%;
+  height:50px;
+  font-size: 100%;
+  background-image: url('Icons/basket.svg');
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 0% 50%;
+  font-weight:bold;
+  background-position: center center;
+}
+.productPage .goBack{
+  color:black;
+  background: #C2403D;
+  width:4%;
+  height:30px;
+  font-size: 100%;
+  background-image: url('Icons/');
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 0% 50%;
+  font-weight:bold;
+  background-position: center center;
+}
+.productPage{
+
+}
+.productPage p{
+  font-size: 250%;
+  font-weight: bold;
+  margin:5%;
+  
+}
