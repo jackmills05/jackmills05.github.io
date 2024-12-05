@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="script.js"></script>
   </head> 
-  <body onload="displayProducts()">
+  <body onload="displayProducts(), loadBasket()">
     <main>
     <!-- Start of code for navigation and taskbar -->
     <div class="topBar">  
@@ -20,8 +20,8 @@
     </div>
     <div id="searchBar"></div>
     <div id="navBar"></div><!-- End of code for navigation and taskbar -->
-    <div id="products">
-    </div>  
+    <div id="products"></div>
+    <div id="basket"></div>  
   </main>
     
 

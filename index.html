@@ -9,7 +9,7 @@
     <script src="script.js"></script>
     <script type="module" src="./script.js"></script>
   </head> 
-  <body>
+  <body onload="loadBasket()()">
     <main>
     <!-- Start of code for navigation and taskbar -->
     <div class="topBar">  
@@ -17,7 +17,8 @@
        <button onclick="searchFunction()", class="search"><img src="Icons/search.svg", draggable="false"></button>      
     </div>
     <div id="searchBar"></div>
-    <div id="navBar"></div><!-- End of code for navigation and taskbar -->
+    <div id="navBar"></div>
+    <div id="basket"></div> <!-- End of code for navigation and taskbar -->
     
     </main>
   
