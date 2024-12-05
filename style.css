@@ -214,5 +214,8 @@ body {
   font-size: 250%;
   font-weight: bold;
   margin:5%;
+  height: 100px;
+  position: absolute;
+  right: 5%;
   
 }
