@@ -55,7 +55,7 @@ body {
     top: 0;
     padding-top: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200%;
+    font-size: 130%;
 }
 #taskbar a, a:link, a:visited{
   color:inherit;
@@ -178,10 +178,7 @@ body {
   transition: none;
   border: 2px solid black;
 }
-.productPage{
-
-}
-.productPage .productBasket{
+#productPage .productBasket{
   color:black;
   background: #3bc47f;
   width:10%;
@@ -194,7 +191,7 @@ body {
   font-weight:bold;
   background-position: center center;
 }
-.productPage .goBack{
+#productPage .goBack{
   color:black;
   background: #C2403D;
   width:4%;
@@ -207,10 +204,7 @@ body {
   font-weight:bold;
   background-position: center center;
 }
-.productPage{
-
-}
-.productPage p{
+#productPage p{
   font-size: 250%;
   font-weight: bold;
   margin:5%;
@@ -218,4 +212,17 @@ body {
   position: absolute;
   right: 5%;
   
+}
+#filter{
+  float:left;
+  position:fixed;
+  background-color: #7D8282;
+  width:5%;
+  height:25%;
+  font-weight: bold;
+}
+#filter label{
+  height:auto;
+  width: auto;
+
 }
