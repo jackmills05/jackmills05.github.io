@@ -102,7 +102,6 @@ body {
 } 
 .productDisplay img{
   width:100%
-  
 }
 .productDisplay{
   background-color:dimgrey;
@@ -217,12 +216,47 @@ body {
   float:left;
   position:fixed;
   background-color: #7D8282;
-  width:5%;
-  height:25%;
+  width:6%;
+  height:30%;
   font-weight: bold;
+  border: 2px solid black;
+
 }
 #filter label{
-  height:auto;
-  width: auto;
-
+  margin:10px;
+  bottom:50%;
+  color: white;
+  width:50%;
+  
+}
+.basketDisplay{
+  float:left;
+  margin-right:5px;
+  background-color:dimgrey;
+  padding:10px;
+  cursor:pointer;
+  border-style: solid;
+  border-width:thin;
+  border-color:black;
+  font-size:150%;
+  color:white;
+  line-height: 10px;
+  object-fit: cover;
+  border: 2px solid black;
+  width:50%;
+  
+}
+.basketDisplay img{
+  width:10%;
+}
+.basketDisplay .name{
+  margin:5px;
+  padding: 12px;
+  font-weight: bold; 
+}
+.basketDisplay .price{
+  float:right;
+  position:relative;
+  color:white;
+  font-weight: bold;
 }
