@@ -223,7 +223,6 @@ body {
 
 }
 #filter label{
-<<<<<<< HEAD
   margin:10px;
   bottom:50%;
   color: white;
@@ -248,12 +247,15 @@ body {
   
 }
 .basketDisplay img{
-  width:10%;
+  width:20%;
 }
 .basketDisplay .name{
   margin:5px;
-  padding: 12px;
+
   font-weight: bold; 
+  text-align: center;
+  
+  
 }
 .basketDisplay .price{
   float:right;
@@ -261,8 +263,19 @@ body {
   color:white;
   font-weight: bold;
 }
-=======
-  height:auto;
-  width: auto;
+#ClearFilter{
+  position:relative;
+  width:100%;
+
 }
->>>>>>> af4d4d9395e661d2e8acbd11cea19c383fa6880d
+
+#checkout button{
+  width:25%;
+  height:50px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background:none;
+  background-color: #5884a7;
+
+}
