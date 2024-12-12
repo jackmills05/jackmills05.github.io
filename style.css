@@ -223,6 +223,7 @@ body {
 
 }
 #filter label{
+<<<<<<< HEAD
   margin:10px;
   bottom:50%;
   color: white;
@@ -260,3 +261,8 @@ body {
   color:white;
   font-weight: bold;
 }
+=======
+  height:auto;
+  width: auto;
+}
+>>>>>>> af4d4d9395e661d2e8acbd11cea19c383fa6880d
