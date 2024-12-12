@@ -19,6 +19,7 @@ body {
     overflow: hidden;
     background-color: #3333;
     outline: 10px black ;
+    
 }
 .topBar .search{
   float:right;
@@ -268,7 +269,6 @@ body {
   width:100%;
 
 }
-
 #checkout button{
   width:25%;
   height:50px;
@@ -277,5 +277,43 @@ body {
   right: 5%;
   background:none;
   background-color: #5884a7;
+
+}
+#bestsellers h2{
+  position:absolute;
+  padding:20%;
+  left:0%;
+
+}
+#bestsellingProducts{
+  position:relative;
+  background-color:dimgrey;
+  width:10%;
+  padding: 5px;
+  cursor:pointer;
+  border-style: solid;
+  border-width:thin;
+  border-color:black;
+  font-size:150%;
+  border: 4px solid black;
+  position:relative;
+  float:left;
+  left:2%;
+  top:50%;
+  font-weight: bold;
+  color: #010100;
+  font-size: 250%;
+  float:left;
+  position:fixed;
+  font-weight: bold;
+}
+#bestsellingProducts img{
+  width: 100%;
+}
+#soleMate{
+  padding:200px;
+  position:relative;
+  font-size: 200%;
+  text-align: center;
 
 }
